@@ -1,0 +1,39 @@
+# Secrets / env
+.env
+*.key
+*.pem
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ESP-IDF / build output
+build/
+managed_components/
+sdkconfig.old
+dependencies.lock
+*.map
+.cache/
+
+# Captures & generated reports (may contain real network data)
+*.pcap
+*.cap
+*.hccapx
+*.22000
+wifi_audit_reports/
+*_report.pdf
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+
+# Tooling / OS
+node_modules/
+.claude/
+.DS_Store
+Thumbs.db
